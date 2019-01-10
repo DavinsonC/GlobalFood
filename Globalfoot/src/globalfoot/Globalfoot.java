@@ -5,6 +5,8 @@
  */
 package globalfoot;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Davinson Castillo
@@ -15,7 +17,8 @@ public class Globalfoot {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        JOptionPane.showMessageDialog(null, "Hi world");
     }
     
 }
